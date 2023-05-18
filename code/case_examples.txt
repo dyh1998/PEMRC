@@ -1,0 +1,152 @@
+correct
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[(12, 12), (15, 21), (27, 29)]
+['cancer', 'lymphoid neoplasias', 'A - T']
+
+hard
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[(12, 12), (15, 21), (27, 29)]
+['cancer', 'lymphoid neoplasias', 'A - T']
+
+soft
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[(15, 21)]
+['lymphoid neoplasias']
+
+mix
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[]
+[]
+
+
+
+correct
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[(40, 42), (58, 63), (72, 73)]
+['tumours', 'sporadic T - PLL', 'tumour']
+
+hard
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[(58, 63), (60, 63)]
+['sporadic T - PLL', 'T - PLL']
+
+soft
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[]
+[]
+
+mix
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[(60, 63), (67, 68)]
+['T - PLL', 'ATM']
+
+
+correct
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[(12, 12), (15, 21), (27, 29)]
+['cancer', 'lymphoid neoplasias', 'A - T']
+
+hard
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[(12, 12), (15, 21), (27, 29)]
+['cancer', 'lymphoid neoplasias', 'A - T']
+
+soft
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[(15, 21)]
+['lymphoid neoplasias']
+
+mix
+find disease entities in the next sentence. The risk of cancer, especially lymphoid neoplasias, is substantially elevated in A - T patients and has long been associated with chromosomal instability.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'risk', 'of', 'cancer', ',', 'especially', 'l', '##ymph', '##oid', 'neo', '##p', '##lasia', '##s', ',', 'is', 'substantially', 'elevated', 'in', 'A', '-', 'T', 'patients', 'and', 'has', 'long', 'been', 'associated', 'with', 'ch', '##rom', '##oso', '##mal', 'instability', '.']
+[]
+[]
+
+
+correct
+find disease entities in the next sentence. By analysing tumour DNA from patients with sporadic T - cell prolymphocytic leukaemia ( T - PLL ), a rare clonal malignancy with similarities to a mature T - cell leukaemia seen in A - T, we demonstrate a high frequency of ATM mutations in T - PLL.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'By', 'anal', '##ys', '##ing', 't', '##umour', 'DNA', 'from', 'patients', 'with', 's', '##poradic', 'T', '-', 'cell', 'pro', '##ly', '##mp', '##ho', '##cy', '##tic', 'le', '##uka', '##emia', '(', 'T', '-', 'P', '##LL', ')', ',', 'a', 'rare', 'c', '##lon', '##al', 'ma', '##li', '##gna', '##ncy', 'with', 'similarities', 'to', 'a', 'mature', 'T', '-', 'cell', 'le', '##uka', '##emia', 'seen', 'in', 'A', '-', 'T', ',', 'we', 'demonstrate', 'a', 'high', 'frequency', 'of', 'AT', '##M', 'mutations', 'in', 'T', '-', 'P', '##LL', '.']
+[(13, 14), (19, 32), (34, 37), (42, 48), (53, 59), (62, 64), (76, 79)]
+['tumour', 'sporadic T - cell prolymphocytic leukaemia', 'T - PLL', 'clonal malignancy', 'mature T - cell leukaemia', 'A - T', 'T - PLL']
+
+hard
+find disease entities in the next sentence. By analysing tumour DNA from patients with sporadic T - cell prolymphocytic leukaemia ( T - PLL ), a rare clonal malignancy with similarities to a mature T - cell leukaemia seen in A - T, we demonstrate a high frequency of ATM mutations in T - PLL.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'By', 'anal', '##ys', '##ing', 't', '##umour', 'DNA', 'from', 'patients', 'with', 's', '##poradic', 'T', '-', 'cell', 'pro', '##ly', '##mp', '##ho', '##cy', '##tic', 'le', '##uka', '##emia', '(', 'T', '-', 'P', '##LL', ')', ',', 'a', 'rare', 'c', '##lon', '##al', 'ma', '##li', '##gna', '##ncy', 'with', 'similarities', 'to', 'a', 'mature', 'T', '-', 'cell', 'le', '##uka', '##emia', 'seen', 'in', 'A', '-', 'T', ',', 'we', 'demonstrate', 'a', 'high', 'frequency', 'of', 'AT', '##M', 'mutations', 'in', 'T', '-', 'P', '##LL', '.']
+[(13, 14), (19, 32), (21, 32), (34, 37), (42, 48), (53, 59), (62, 64), (76, 79)]
+['tumour', 'sporadic T - cell prolymphocytic leukaemia', 'T - cell prolymphocytic leukaemia', 'T - PLL', 'clonal malignancy', 'mature T - cell leukaemia', 'A - T', 'T - PLL']
+
+soft
+find disease entities in the next sentence. By analysing tumour DNA from patients with sporadic T - cell prolymphocytic leukaemia ( T - PLL ), a rare clonal malignancy with similarities to a mature T - cell leukaemia seen in A - T, we demonstrate a high frequency of ATM mutations in T - PLL.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'By', 'anal', '##ys', '##ing', 't', '##umour', 'DNA', 'from', 'patients', 'with', 's', '##poradic', 'T', '-', 'cell', 'pro', '##ly', '##mp', '##ho', '##cy', '##tic', 'le', '##uka', '##emia', '(', 'T', '-', 'P', '##LL', ')', ',', 'a', 'rare', 'c', '##lon', '##al', 'ma', '##li', '##gna', '##ncy', 'with', 'similarities', 'to', 'a', 'mature', 'T', '-', 'cell', 'le', '##uka', '##emia', 'seen', 'in', 'A', '-', 'T', ',', 'we', 'demonstrate', 'a', 'high', 'frequency', 'of', 'AT', '##M', 'mutations', 'in', 'T', '-', 'P', '##LL', '.']
+[]
+[]
+
+mix
+find disease entities in the next sentence. By analysing tumour DNA from patients with sporadic T - cell prolymphocytic leukaemia ( T - PLL ), a rare clonal malignancy with similarities to a mature T - cell leukaemia seen in A - T, we demonstrate a high frequency of ATM mutations in T - PLL.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'By', 'anal', '##ys', '##ing', 't', '##umour', 'DNA', 'from', 'patients', 'with', 's', '##poradic', 'T', '-', 'cell', 'pro', '##ly', '##mp', '##ho', '##cy', '##tic', 'le', '##uka', '##emia', '(', 'T', '-', 'P', '##LL', ')', ',', 'a', 'rare', 'c', '##lon', '##al', 'ma', '##li', '##gna', '##ncy', 'with', 'similarities', 'to', 'a', 'mature', 'T', '-', 'cell', 'le', '##uka', '##emia', 'seen', 'in', 'A', '-', 'T', ',', 'we', 'demonstrate', 'a', 'high', 'frequency', 'of', 'AT', '##M', 'mutations', 'in', 'T', '-', 'P', '##LL', '.']
+[(19, 32), (21, 32), (34, 37), (53, 59), (76, 79)]
+['sporadic T - cell prolymphocytic leukaemia', 'T - cell prolymphocytic leukaemia', 'T - PLL', 'mature T - cell leukaemia', 'T - PLL']
+
+"""
+mix 没有显示的标签，可能会发现其他类型的实体
+"""
+correct
+find disease entities in the next sentence. These clustered in the region corresponding to the kinase domain, which is highly conserved in ATM - related proteins in mouse, yeast and Drosophila.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'These', 'cluster', '##ed', 'in', 'the', 'region', 'corresponding', 'to', 'the', 'kinase', 'domain', ',', 'which', 'is', 'highly', 'conserved', 'in', 'AT', '##M', '-', 'related', 'proteins', 'in', 'mouse', ',', 'yeast', 'and', 'Dr', '##oso', '##phi', '##la', '.']
+[]
+[]
+
+hard
+find disease entities in the next sentence. These clustered in the region corresponding to the kinase domain, which is highly conserved in ATM - related proteins in mouse, yeast and Drosophila.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'These', 'cluster', '##ed', 'in', 'the', 'region', 'corresponding', 'to', 'the', 'kinase', 'domain', ',', 'which', 'is', 'highly', 'conserved', 'in', 'AT', '##M', '-', 'related', 'proteins', 'in', 'mouse', ',', 'yeast', 'and', 'Dr', '##oso', '##phi', '##la', '.']
+[]
+[]
+
+soft
+find disease entities in the next sentence. These clustered in the region corresponding to the kinase domain, which is highly conserved in ATM - related proteins in mouse, yeast and Drosophila.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'These', 'cluster', '##ed', 'in', 'the', 'region', 'corresponding', 'to', 'the', 'kinase', 'domain', ',', 'which', 'is', 'highly', 'conserved', 'in', 'AT', '##M', '-', 'related', 'proteins', 'in', 'mouse', ',', 'yeast', 'and', 'Dr', '##oso', '##phi', '##la', '.']
+[(36, 39)]
+['Drosophila']
+
+mix
+find disease entities in the next sentence. These clustered in the region corresponding to the kinase domain, which is highly conserved in ATM - related proteins in mouse, yeast and Drosophila.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'These', 'cluster', '##ed', 'in', 'the', 'region', 'corresponding', 'to', 'the', 'kinase', 'domain', ',', 'which', 'is', 'highly', 'conserved', 'in', 'AT', '##M', '-', 'related', 'proteins', 'in', 'mouse', ',', 'yeast', 'and', 'Dr', '##oso', '##phi', '##la', '.']
+[(26, 30), (32, 32), (34, 34), (36, 39)]
+['ATM - related proteins', 'mouse', 'yeast', 'Drosophila']
+
+
+
+correct
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[(40, 42), (58, 63), (72, 73)]
+['tumours', 'sporadic T - PLL', 'tumour']
+
+hard
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[(58, 63), (60, 63)]
+['sporadic T - PLL', 'T - PLL']
+
+soft
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[]
+[]
+
+mix
+find disease entities in the next sentence. The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor.
+['find', 'disease', 'entities', 'in', 'the', 'next', 'sentence', '.', 'The', 'evidence', 'of', 'a', 'significant', 'proportion', 'of', 'loss', '-', 'of', '-', 'function', 'mutations', 'and', 'a', 'complete', 'absence', 'of', 'the', 'normal', 'copy', 'of', 'AT', '##M', 'in', 'the', 'majority', 'of', 'm', '##uta', '##ted', 't', '##umour', '##s', 'establishes', 'so', '##matic', 'in', '##act', '##ivation', 'of', 'this', 'gene', 'in', 'the', 'path', '##ogen', '##esis', 'of', 's', '##poradic', 'T', '-', 'P', '##LL', 'and', 'suggests', 'that', 'AT', '##M', 'acts', 'as', 'a', 't', '##umour', 'suppress', '##or', '.']
+[(60, 63), (67, 68)]
+['T - PLL', 'ATM']

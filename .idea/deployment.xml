@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="yhdong@root@ssh-0f0e13216262f4a201bec128044dd30f.default@ssh.virtaicloud.com:30022" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="qianlonghua@192.168.126.61:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@direct.virtaicloud.com:22355">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@direct.virtaicloud.com:44663">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yhdong@10.10.64.118:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yhdong@192.168.134.3:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yhdong/BioFSNER" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yhdong@root@ssh-0f0e13216262f4a201bec128044dd30f.default@ssh.virtaicloud.com:30022">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/gemini" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yhdong@root@ssh-5989add1703e4b0480f75e2390739f34.default@ssh.virtaicloud.com:30022">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/gemini" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
